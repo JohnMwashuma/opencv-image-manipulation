@@ -1,13 +1,9 @@
 import cv2   
 import os 
-  
 
-image_path = r'C:\Users\Rajnish\Desktop\GeeksforGeeks\geeks.png'
-
-directory = r'C:\Users\Rajnish\Desktop\GeeksforGeeks'
   
 # read the image 
-img = cv2.imread(image_path)  
+img = cv2.imread('Photos/cat.jpg')  
   
 # New filename 
 filename = 'new_name.jpg'
