@@ -1,7 +1,6 @@
 import cv2 
 	
-# path to input images are specified and 
-# images are loaded with imread command 
+
 image1 = cv2.imread('Photos/star.jpg')
 image2 = cv2.imread('Photos/circle.jpg')
 
