@@ -20,3 +20,5 @@ Useful image manipulation techniques using OpenCV with Python
 3. Activate Virtual Environment: `workon <virtual_en_name>`
 
 4. Install requirements: `pip install -r requirements.txt`
+
+NB: Make sure that your pip version is up-to-date (19.3 is the minimum supported version): pip install --upgrade pip. Check version with pip -V.
