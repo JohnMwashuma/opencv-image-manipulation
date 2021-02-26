@@ -1,7 +1,7 @@
 import cv2 
 
-image1 = cv2.imread('Photos/input1.jpg') 
-image2 = cv2.imread('Photos/.jpg') 
+image1 = cv2.imread('Photos/star.jpg') 
+image2 = cv2.imread('Photos/circle.jpg') 
 
 weightedSum = cv2.addWeighted(image1, 0.5, image2, 0.4, 0) 
 
